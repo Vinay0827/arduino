@@ -1,0 +1,25 @@
+#Home Automation using Arduino and Bluetooth
+
+#Introduction
+This project aims to build a simple and cost-effective home automation system using an Arduino board and a Bluetooth module. The system allows you to control various devices in your home such as lights, fans, and appliances through a mobile application via Bluetooth.
+
+#Materials
+Arduino Uno or similar
+HC-05 or HC-06 Bluetooth module
+Relay module
+Jumper wires
+Power supply for the Arduino
+LEDs, resistors, and transistors for testing the circuit
+
+#Circuit Diagram
+The circuit diagram for this project is relatively simple and can be found in various online resources. The basic idea is to connect the Bluetooth module to the Arduino board and connect the relay module to the digital pins 12 of the Arduino. The relay module acts as a switch that can turn on and off the connected devices.
+
+#Code
+The code for this project is written in the Arduino programming language and can be found in the code folder of this repository. The code makes use of the SoftwareSerial library to communicate with the Bluetooth module and the DigitalIO library to control the relay module.
+
+The code uses a simple serial protocol to receive commands from the mobile application and control the connected devices. The protocol consists of simple ASCII commands such as "ON" and "OFF" to turn the devices on and off.
+
+#Mobile Application
+The mobile application can be developed using any platform such as Android or iOS. The idea is to create a simple application that can send serial commands over Bluetooth to the Arduino board. The application should have a simple user interface that allows you to turn on and off the connected devices.
+app:-https://drive.google.com/file/d/1KkrMEqTnvsQQLIJZe-2KZJhK_0et2946/view
+
